@@ -1,0 +1,22 @@
+{
+    "network": "testnet",
+    "chainId": 97,
+    "precision": 6,
+    "rpcUrl": "https://node-stage.expx.exchange:8547",
+    "poolsUrl": "https://pools-stage.expx.exchange",
+    "explorerUrl": "https://testnet.bscscan.com",
+    "backendUrl": "https://backend-stage.expx.exchange",
+    "addresses": {
+        "dsProxyRegistry": "0x64A63114497B04616F809f1d87663B711BC268b0",
+        "exchangeProxy": "0xAaAE73C7FEB94a9291843869954B1613324E1bEB",
+        "wbnb": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "multicall": "0xbD53327763734275E1b1Dd295e8183dac428F752",
+        "poolsInfo": "0x05b87984D51c7e0A73dC733C0CB92e222Af12d71"
+    },
+    "connectors": {
+        "injected": {
+            "id": "injected",
+            "name": "MetaMask"
+        }
+    }
+}
